@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tienda Virtual</title>
+
+    <style>
+        /*GENERAL*/
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #0f172a;
+            color: white;
+        }
+/*HEADER*/
+        header {
+            
+            align-items: center;
+            
+            background-color: #111;
+            color: white;
+            padding: 25px  20px;
+            letter-spacing: 2px;
+
+        }
+        header 1{ 
+        margin: 0;
+        font -size: 30px;
+        }
+       header p{ 
+        margin: 5px 0 0;
+       font-size: 17px;
+        color: #94a3b8;
+
+        }
+
+    /*MENU*/
+        nav {
+            background-color: #000;
+            margin:  10px;
+            text-align: center;                    
+            padding: 15px 0;
+           
+        }
+        nav a{
+              color: white;
+              margin: 0 20px;
+              text-decoration: none;
+              font-size: 15px;
+              transition: 01s;
+         }
+       
+
+        nav a:hover {
+            color: #f97316;
+        }
+      /*  BANNER  */
+        .banner {
+            background: url('NEXATECH') no-repeat center;
+            background-size: cover;
+            height: 300px;
+            display:  flex;
+            justify-content:  center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .banner h2{
+           font-size: 35px ;
+           margin: 0px;
+
+        }
+        .banner p{
+           font-size: 16px ;                    
+
+        }
+    
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+  /*  PRODUCTOS  */
+        .productos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+  /*  TARJETAS  */
+        .card {
+            background: rgb(255, 253, 252);
+            width: 250px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(95, 40, 40, 0.2);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+  /*  BOTON  */
+button {
+
+background:#f97316;
+color: white;
+border: none;
+padding: 10px;
+cursor: pointer;
+
+
+}
+        .card h3 {
+            margin: 10px;
+            color: #0c0b0b;
+
+        }
+
+        .card p {
+            color: #0c0b0b;
+        }
+
+        .card button {
+            background: #111;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin: 10px;
+            cursor: pointer;
+        }
+  /*  FOOTER  */
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+       body {
+        margin: 0;
+    }
+
+    .banner {
+        background: url('https://images.unsplash.com/photo-1520975922284-9c7a1f2d0b8c') no-repeat center;
+        background-size: cover;
+        height: 350px;
+    }
+  
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NEXATECH </h1>
+ <h1>
+  <p>“Todo en tecnología: venta y soporte en un solo lugar”
+
+    </p>
+</h1>
+</header>
+<header1>
+
+</header1>
+
+<nav>
+ <a href="index.html">INICIO</a>
+    <a href="Tienda.html">TIENDA</a>
+    <a href="Formulario.html">CONTACTO</a>
+    <a href="Nosotros.html">NOSOTROS</a>
+    <a href="Servicios.html">SERVICIOS</a>
+</nav>
+<div class="banner">
+
+    
+
+</div>
+
+
+<section>
+    <h2>PRODUCTOS NUEVOS</h2>
+
+    <div class="productos">
+
+        <div class="card">
+            <img src="imagen1.jpg">
+            <h3>ASUS ROG Strix Scar:</h3>
+            <p>S/ 15 000</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="imagen2.jpg">
+            <h3>Lenovo LOQ / Yoga Slim 7i:</h3>
+            <p>S/ 9 500</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="imagen3.jpg">
+            <h3>HP Victus / HP 15-FD: </h3>
+            <p>S/ 4 700 </p>
+            <button>Comprar</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 NexaTech  - Todos los derechos reservados</p>
+</footer>
+
+</body>
+
+</html>
